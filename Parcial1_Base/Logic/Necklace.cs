@@ -2,8 +2,14 @@
 {
     public class Necklace : Accessory
     {
+        int amount = 0;
+
         public Necklace(int style) : base(style)
         {
+            if (amount<1)
+            {
+
+            }
         }
 
         /// <summary>

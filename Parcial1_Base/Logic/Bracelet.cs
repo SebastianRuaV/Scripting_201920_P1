@@ -5,9 +5,16 @@
     /// </summary>
     public class Bracelet : Accessory
     {
+        int max_amount = 5;
+
         public Bracelet(int style) : base(style)
         {
+            if (max_amount>0)
+            {
+
+            }
         }
+
 
         /// <summary>
         /// Copies this instance attributes to a new independant one

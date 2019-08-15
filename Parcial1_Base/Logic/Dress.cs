@@ -41,6 +41,12 @@
         /// </summary>
         public EDressCategory Category { get; protected set; }
 
+        public Dress(int style):base(style)
+        {
+
+        }
+
+
         public Dress(int style, EColor color, EDressCategory category) : base(style)
         {
             
