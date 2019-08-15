@@ -7,6 +7,7 @@ namespace Parcial1_Base.Logic
     /// </summary>
     public class Doll : IClonable<Doll>
     {
+        int a = 0;
         /// <summary>
         /// The accessories collection.
         /// </summary>

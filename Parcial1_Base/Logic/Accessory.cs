@@ -5,6 +5,7 @@
     /// </summary>
     public abstract class Accessory : IClonable<Accessory>
     {
+        int a = 0;
         /// <summary>
         /// The base style score.
         /// </summary>

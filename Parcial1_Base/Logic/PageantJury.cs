@@ -4,6 +4,7 @@ namespace Parcial1_Base.Logic
 {
     public class PageantJury
     {
+        int a = 0;
         /// <summary>
         /// The contestants collection.
         /// </summary>

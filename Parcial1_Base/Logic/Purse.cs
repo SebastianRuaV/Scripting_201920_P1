@@ -2,6 +2,7 @@
 {
     public class Purse : Accessory
     {
+        int a = 0;
         public Purse(int style) : base(style)
         {
         }
